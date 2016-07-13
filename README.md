@@ -1,7 +1,7 @@
 # todoer
 Organize your tasks in a tidy way
 
-## This is a very initial version of this tool!
+## This is a very early, ungly and not functional version of this tool!
 
 # DO NOT USE IT!
 
