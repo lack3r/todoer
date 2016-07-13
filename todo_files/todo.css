@@ -1,0 +1,66 @@
+body{
+    background-color:#EEEEEE;
+}
+
+/*The code between BODY1 was added by andreas to respolve some issues with overlapping text.*/
+/*They can be removed*/
+/*Taken from http://stackoverflow.com/questions/10336194/twitter-bootstrap-top-nav-bar-blocking-top-content-of-the-page */
+/*BODY1 - ANDREAS*/
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+body {
+  padding-top: 60px;
+}
+@media (min-width: 750px) {
+  body {
+    padding-top: 25px;
+  }
+}
+/*END of BODY1*/
+.todo-list{
+    background-color:#FFF;
+    padding:20px 20px 10px 20px;
+    margin-top:30px;
+}
+.todo-list h1{
+    margin:0;
+    padding-bottom:20px;
+    text-align:center;
+}
+.form-control{
+    border-radius:0;
+}
+.insert-button{
+    border-radius:0;
+}
+li.ui-state-default{
+    background:#fff;
+    border:none;
+    border-bottom:1px solid #ddd;
+}
+
+li.ui-state-default:last-child{
+    border-bottom:none;
+}
+
+.bottom-tasks-counter{
+    background-color:#F4FCE8;
+    margin:0 -20px -10px -20px;
+    padding: 10px 20px;
+}
+#completed li{
+    padding:10px 0;
+    border-bottom:1px solid #ddd;
+    text-decoration:line-through;
+}
+#completed li:last-child{
+    border-bottom:none;
+}
+#checkAll{
+    margin-top:10px;
+}

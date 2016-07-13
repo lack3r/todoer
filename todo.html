@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class=""><head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="UTF-8">
+<script src="todo_files/jquery.js"></script>
+
+
+    <link rel="stylesheet" href="todo_files/bootstrap.css">
+    <link rel="stylesheet" href="todo_files/font-awesome.css">
+    <link rel="stylesheet" href="todo_files/bootsnipp.css">
+	<link rel="stylesheet prefetch" type="text/css" href="todo_files/todo.css">
+		
+    <script src="todo_files/bootstrap.js"></script>
+    <script src="todo_files/scripts.js"></script><style type="text/css"></style>
+	<script type="text/javascript" src="todo_files/jquery-ui.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img style="max-width:50px; margin-top: -7px;" alt="Brand" src="todo_files/LOGO.jpg">
+      </a>
+    </div>
+
+  <h3>Remaining Tasks - <span class="label label-primary"><span class="day-name-here">Wednesday</span> - <span class="day-here">21</span> <span class="month-here">November</span> <span class="year-here">2015</span> (<span class="count-todos">3</span>) </span> </h3>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="todo-list pending">
+             <h1>Pending Tasks</h1>
+			 <div class="input-group">
+			 <span class="input-group-btn">
+				<button id="insertButton" class="insert-button btn btn-info" type="button">Go!</button>
+			</span>
+			<input class="form-control insert-task" placeholder="Write new todo here" type="text">
+		</div>
+                    <button id="checkAll" class="btn btn-info">Mark all as completed</button>
+                    
+                    <hr>
+                    <ul id="pending" class="list-unstyled ui-sortable">
+					                    
+                <div class="bottom-tasks-counter">
+                    <strong><span class="count-todos">3</span></strong> Tasks remaining.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="todo-list">
+             <h1>Completed</h1>
+                <ul id="completed" class="list-unstyled ui-sortable">
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+	<div class="footer navbar-default navbar-fixed-bottom"> 
+	<div class="container">
+	<p align="right"> Another thing made with <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color:#c0392b"></span> by <a href="https://cy.linkedin.com/in/loizouandreas"> Andreas Loizou </a></p>
+	</div>
+	</div>
+<script type="text/javascript" src="todo_files/todo.js"></script> 
+
+
+</body></html>
