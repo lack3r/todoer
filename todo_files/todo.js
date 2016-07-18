@@ -23,7 +23,7 @@ function getDayName(){
 
 function getMonth(){
     var today = new Date();
-	var mm = today.getMonth()+1; /*January is 0*/
+	var mm = today.getMonth(); /*January is 0*/
 	months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'),
     mm = months[mm],
     $('.month-here').html(mm);
